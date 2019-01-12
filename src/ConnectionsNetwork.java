@@ -23,7 +23,7 @@ public class ConnectionsNetwork {
             n2Connections = new ArrayList<>();
             networkData.put(n2,n2Connections);
         }
-        if (!n1Connections.contains(n2))
+        if (!n2Connections.contains(n1))
             n2Connections.add(n1);
     }
 
